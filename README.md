@@ -4,8 +4,9 @@ for Queck starting the programe install xampp from hare --> [https://www.apachef
 ## How to use
 for starting make sure all table are make properly. Than start the "mysql and apache" then search "localhost/forum" in you favorite browser.
 Make sure all sqli file are import in Phpmysql first make the iforum db. than import my slq file in hare[http://localhost/phpmyadmin/db_structure.php?server=1&db=iforum].
-table preview ....![img]()
+table preview ....![img](./img/trv.png)
 "Make sure this repository in this file location befor searching  -> [C:\xampp\htdocs\forum] in window same mac."
+last one make sure blow quiry will run for searching in thread table --->  '''ALTER TABLE thread add FULLTEXT(`thread_title`,`thread_dsc`)
 
 # Web preview
 ## Home
